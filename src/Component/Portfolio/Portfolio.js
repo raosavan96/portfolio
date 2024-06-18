@@ -241,7 +241,7 @@ function Portfolio() {
 
         <section className="my_projects">
           <div className="container">
-            <h1 className="my_projects-hadding">My Projectsrghtyhtdyhb</h1>
+            <h1 className="my_projects-hadding">My Proj</h1>
           </div>
         </section>
       </div>
