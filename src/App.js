@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Portfolio from './Component/Portfolio/Portfolio';
+// import Hook from './Component/Hook/Hook';
+// import SecCards from './Component/SecCards/SecCards';
+// import './Component/Style.css'
+// import CardSection from './Component/card/CardSection';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <CardSection/> */}
+      {/* <SecCards /> */}
+      {/* <Hook /> */}
+      <Portfolio />
+    </>
   );
 }
 
