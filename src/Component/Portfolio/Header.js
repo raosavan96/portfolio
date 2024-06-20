@@ -22,11 +22,11 @@ function Header() {
           </button>
           <div className="collapse mb-md-0 mb-4 navbar-collapse" id="navbarSupportedContent">
             <ul className="snip1135 m-0 me-auto">
-              <li className="current"><a href="/" data-hover="Home">Home</a></li>
+              <li className="current"><a href="#home-sec" data-hover="Home">Home</a></li>
               <li><a href="#about_me" data-hover="About me">About me</a></li>
               <li><a href="#skills-sec" data-hover="My Skills">My Skills</a></li>
               <li><a href="/" data-hover="Projects">Projects</a></li>
-              <li><a href="/" data-hover="Contact">Contact</a></li>
+              <li><a href="#contact_me" data-hover="Contact">Contact</a></li>
             </ul>
 
 

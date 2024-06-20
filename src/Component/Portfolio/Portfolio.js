@@ -16,6 +16,7 @@ import Bg_brus2 from "./Images/bg-brus-2.png"
 import Bg_brus3 from "./Images/bg-brus-3.png"
 import Dot_1 from "./Images/dot-1.png"
 import LeftArow from './Images/left.png'
+import JointCurv from './Images/join-cruv.png'
 
 const ProgressBar = (progressData) => {
   let progressHtml = []
@@ -43,7 +44,7 @@ function Portfolio() {
   return (
     <>
       <div className="portfolio-sec">
-        <section className="home-sec">
+        <section className="home-sec" id="home-sec">
           <div className="side_line">
             <img src={SideLine} alt="" />
           </div>
@@ -239,9 +240,31 @@ function Portfolio() {
           </div>
         </section>
 
-        <section className="my_projects">
+        <section className="contact_me position-relative" id="contact_me" >
+          <img className="bg-imgs-5" src={Bg_brus1} alt="" />
+          <img className="bg-imgs-6" src={Bg_brus2} alt="" />
+          <img className="bg-imgs-7" src={Bg_brus3} alt="" />
+          <img className="bg-imgs-8" src={JointCurv} alt="" />
           <div className="container">
-            <h1 className="my_projects-hadding">My Projects</h1>
+            <h1 className="contact_me_hadding">Contact Me</h1>
+
+            <div className="contact_form mt-4 mx-auto position-relative z-0">
+              <form>
+                <div className="mb-3">
+                  <label for="exampleInputEmail1" className="form-label">Full Name<span>*</span></label>
+                  <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                </div>
+                <div className="mb-3">
+                  <label for="exampleInputPassword1" className="form-label">Email<span>*</span></label>
+                  <input type="email" className="form-control" id="exampleInputPassword1" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message<span>*</span></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button type="submit" className="btn submit_btn">Submit</button>
+              </form>
+            </div>
           </div>
         </section>
       </div>

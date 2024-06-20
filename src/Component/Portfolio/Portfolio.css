@@ -29,6 +29,70 @@ body {
   overflow: hidden;
 }
 
+/** bg absolute img **/
+
+.bg-imgs-1 {
+  position: absolute;
+  top: 5%;
+  right: 7%;
+  width: 600px;
+  height: 600px;
+}
+
+.bg-imgs-2 {
+  position: absolute;
+  top: 26%;
+  right: 0%;
+  width: 600px;
+  height: 600px;
+}
+.bg-imgs-3 {
+  position: absolute;
+  top: 25%;
+  left: -8%;
+  width: 600px;
+  height: 600px;
+}
+
+.bg-imgs-4 {
+  position: absolute;
+  top: 64%;
+  right: 0%;
+  width: 250px;
+  height: 54px;
+}
+.bg-imgs-5 {
+  position: absolute;
+  top: -4%;
+  left: 4%;
+  width: 600px;
+  height: 900px;
+}
+.bg-imgs-6 {
+  position: absolute;
+  top: 54%;
+  left: 10%;
+  width: 500px;
+  height: 400px;
+}
+
+.bg-imgs-7 {
+  position: absolute;
+  top: -24%;
+  right: -19%;
+  width: 800px;
+  height: 800px;
+}
+.bg-imgs-8 {
+  position: absolute;
+  top: 5%;
+  left: -0%;
+  width: 400px;
+  height: 400px;             
+}
+
+/** bg absolute img end **/
+
 /** Header **/
 
 .navbar {
@@ -155,7 +219,7 @@ header {
 
 .home-sec {
   width: 100%;
-  height: 650px;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
@@ -340,7 +404,8 @@ header {
 /** about start **/
 
 .about_me {
-  padding: 80px 0;
+  padding: 40px 0;
+  height: 100vh;
 }
 
 .about-img-sec {
@@ -382,43 +447,13 @@ header {
   right: 19%;
 }
 
-.bg-imgs-1 {
-  position: absolute;
-  top: 5%;
-  right: 7%;
-  width: 500px;
-  height: 600px;
-}
-
-.bg-imgs-2 {
-  position: absolute;
-  top: 26%;
-  right: 0%;
-  width: 473px;
-  height: 532px;
-}
-.bg-imgs-3 {
-  position: absolute;
-  top: 25%;
-  left: -8%;
-  width: 481px;
-  height: 547px;
-}
-
-.bg-imgs-4 {
-  position: absolute;
-  top: 64%;
-  right: 0%;
-  width: 250px;
-  height: 54px;
-}
-
 /** about end **/
 
 /** Siklls sec start **/
 
 .skills-sec {
-  padding: 80px 0;
+  padding: 40px 0 80px;
+  height: 100vh;
 }
 
 .skill-hedding h1 {
@@ -454,24 +489,58 @@ header {
 
 /** Siklls sec end **/
 
+/** Contact me **/
 
-/** My Projects **/
-
-.my_projects {
-  padding: 80px 0;
+.contact_me {
+  padding: 10px 0;
+  height: 100vh;
 }
 
-.my_projects-hadding {
+.contact_me_hadding {
   font-size: 80px;
   color: #fff;
-  text-align: end;
-  margin: 0 150px 0 0 ;
+  text-align: center;
 }
 
-/** My Projects end **/
+/* contact form */
 
+.contact_form {
+  padding: 20px;
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+}
+form label {
+  color: #fff;
+  font-size: 14px;
+  margin: 0 0 3px 15px !important;
+}
 
-/** mediaqueary **/ 
+form input,
+textarea {
+  background-color: #2b152b !important;
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+form input {
+  padding: 10px 0 !important;
+}
+
+.submit_btn {
+  background-color: #b21eb2;
+  padding: 8px 30px;
+  color: #fff;
+  margin: 41px auto 0;
+  display: block;
+  border-radius: 20px;
+}
+
+/* contact form end */
+
+/** Contact me end **/
+
+/** mediaqueary **/
 
 @media screen and (max-width: 1200px) {
   .profile-img-sec {
@@ -526,9 +595,9 @@ header {
   .profile-sec h4 {
     font-size: 22px;
   }
-  .home-sec {
+  /* .home-sec {
     height: 554px;
-  }
+  } */
 
   .contact-btn {
     padding: 8px 21px;
@@ -541,7 +610,7 @@ header {
   .contact-btn {
     font-size: 13px;
     padding: 8px 10px;
-}
+  }
   .snip1135 li {
     margin: 10px 0.5em;
     padding: 0;
@@ -549,11 +618,11 @@ header {
 
   .snip1135 a {
     font-size: 13px;
-}
+  }
 
-.logo {
-  font-size: 16px;
-}
+  .logo {
+    font-size: 16px;
+  }
   .side_line {
     width: 19px;
     height: 206px;
@@ -661,7 +730,7 @@ header {
   .logo {
     margin: 0 10px;
     font-size: 28px;
-}
+  }
 
   .contact-btn {
     margin: 0 10px;
@@ -728,7 +797,7 @@ header {
 @media screen and (max-width: 576px) {
   .logo {
     font-size: 22px;
-}
+  }
   .profile-sec h4 {
     font-size: 16px;
   }
@@ -744,9 +813,9 @@ header {
     height: 300px;
     margin: 17px 0 0 0;
   }
-  .home-sec {
+  /* .home-sec {
     height: 550px;
-  }
+  } */
   .cv-btn-sec {
     position: absolute;
     top: 20%;
@@ -853,6 +922,5 @@ header {
     box-shadow: 0 0 0 0 #4daa5700;
   }
 }
-
 
 /*  keyfranes end  **/
