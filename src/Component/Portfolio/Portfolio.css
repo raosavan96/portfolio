@@ -85,7 +85,7 @@ body {
 }
 .bg-imgs-8 {
   position: absolute;
-  top: 5%;
+  top: 9%;
   left: -0%;
   width: 400px;
   height: 400px;
@@ -875,11 +875,11 @@ form input {
     gap: 0 5px;
   }
   .bg-imgs-8 {
-    top: 2%;
-    left: -0%;
-    width: 200px;
-    height: 200px;
-  }
+    height: 300px;
+    left: 0;
+    top: 8%;
+    width: 300px;
+}
   .contact_form {
     padding: 0px;
   }
