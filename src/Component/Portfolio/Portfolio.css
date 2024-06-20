@@ -88,7 +88,7 @@ body {
   top: 5%;
   left: -0%;
   width: 400px;
-  height: 400px;             
+  height: 400px;
 }
 
 /** bg absolute img end **/
@@ -675,6 +675,10 @@ form input {
     width: 15px;
     height: 15px;
   }
+
+  .contact_me_hadding {
+    font-size: 55px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -792,6 +796,9 @@ form input {
     width: 17px;
     height: 17px;
   }
+  .contact_me_hadding {
+    font-size: 45px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -866,6 +873,15 @@ form input {
   }
   .skils {
     gap: 0 5px;
+  }
+  .bg-imgs-8 {
+    top: 2%;
+    left: -0%;
+    width: 200px;
+    height: 200px;
+  }
+  .contact_form {
+    padding: 0px;
   }
 }
 

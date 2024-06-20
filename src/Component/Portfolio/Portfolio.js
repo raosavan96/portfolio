@@ -245,7 +245,7 @@ function Portfolio() {
           <img className="bg-imgs-6" src={Bg_brus2} alt="" />
           <img className="bg-imgs-7" src={Bg_brus3} alt="" />
           <img className="bg-imgs-8" src={JointCurv} alt="" />
-          <div className="container">
+          <div className="container position-relative z-1">
             <h1 className="contact_me_hadding">Contact Me</h1>
 
             <div className="contact_form mt-4 mx-auto position-relative z-0">
