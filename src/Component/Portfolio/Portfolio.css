@@ -228,12 +228,11 @@ header {
 
 .home-sec {
   width: 100%;
-  height: auto;
+  height: 700px;
   position: relative;
   overflow: hidden;
   padding: 0 0 100px 0;
 }
-
 .side_line {
   position: absolute;
   width: 32px;
