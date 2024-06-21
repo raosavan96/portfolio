@@ -85,7 +85,7 @@ body {
 }
 .bg-imgs-8 {
   position: absolute;
-  top: 9%;
+  top: 5%;
   left: -0%;
   width: 400px;
   height: 400px;
@@ -219,9 +219,10 @@ header {
 
 .home-sec {
   width: 100%;
-  height: 100vh;
+  height: auto;
   position: relative;
   overflow: hidden;
+  padding: 0 0 100px 0;
 }
 
 .side_line {
@@ -405,7 +406,7 @@ header {
 
 .about_me {
   padding: 40px 0;
-  height: 100vh;
+  height: auto;
 }
 
 .about-img-sec {
@@ -453,7 +454,7 @@ header {
 
 .skills-sec {
   padding: 40px 0 80px;
-  height: 100vh;
+  height: auto;
 }
 
 .skill-hedding h1 {
@@ -493,7 +494,7 @@ header {
 
 .contact_me {
   padding: 10px 0;
-  height: 100vh;
+  height: auto;
 }
 
 .contact_me_hadding {
@@ -577,6 +578,10 @@ form input {
   .snip1135 li {
     margin: 0 12px;
   }
+  .bg-imgs-8 {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -595,9 +600,9 @@ form input {
   .profile-sec h4 {
     font-size: 22px;
   }
-  /* .home-sec {
-    height: 554px;
-  } */
+  .home-sec {
+    padding: 0;
+  }
 
   .contact-btn {
     padding: 8px 21px;
@@ -679,6 +684,12 @@ form input {
   .contact_me_hadding {
     font-size: 55px;
   }
+  .bg-imgs-8 {
+    top: 5%;
+    left: -0%;
+    width: 200px;
+    height: 200px;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -799,6 +810,13 @@ form input {
   .contact_me_hadding {
     font-size: 45px;
   }
+
+  .bg-imgs-8 {
+    top: 5%;
+    left: -0%;
+    width: 100px;
+    height: 100px;
+}
 }
 
 @media screen and (max-width: 576px) {
@@ -824,7 +842,6 @@ form input {
     height: 550px;
   } */
   .cv-btn-sec {
-    position: absolute;
     top: 20%;
     left: 44px;
     z-index: 2;
@@ -875,11 +892,11 @@ form input {
     gap: 0 5px;
   }
   .bg-imgs-8 {
-    height: 300px;
+    height: 100px;
     left: 0;
-    top: 8%;
-    width: 300px;
-}
+    top: 23%;
+    width: 100px;
+  }
   .contact_form {
     padding: 0px;
   }
