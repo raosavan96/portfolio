@@ -91,6 +91,15 @@ body {
   height: 400px;
 }
 
+.bg-imgs-9 {
+  position: absolute;
+  top: 55%;
+  right: 0%;
+  width: 250px;
+  height: 54px;
+  transform: rotate(90deg);
+}
+
 /** bg absolute img end **/
 
 /** Header **/
@@ -522,6 +531,7 @@ textarea {
   background-color: #2b152b !important;
   border: none !important;
   border-radius: 20px !important;
+  border: 2px solid #311154 !important;
 }
 
 form input {
@@ -689,7 +699,7 @@ form input {
     left: -0%;
     width: 200px;
     height: 200px;
-}
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -816,7 +826,15 @@ form input {
     left: -0%;
     width: 100px;
     height: 100px;
-}
+  }
+
+  .bg-imgs-9 {
+    top: 55%;
+    right: -13%;
+    width: 219px;
+    height: 47px;
+    transform: rotate(90deg);
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -900,6 +918,11 @@ form input {
   .contact_form {
     padding: 0px;
   }
+
+  .bg-imgs-9 {
+    top: 39%;
+    right: 0;
+   }
 }
 
 /*  media queary end  **/
