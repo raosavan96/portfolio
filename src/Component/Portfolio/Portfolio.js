@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import Header from "./Header";
+import FooterIcons from "./FooterIcons";
 import ProfileImg from "./Images/pro-cercle.png";
 import ProfileBor from "./Images/pro-cercle-order.png";
 import ProfileCer from "./Images/pro-cer-up.png";
@@ -17,6 +18,7 @@ import Bg_brus3 from "./Images/bg-brus-3.png"
 import Dot_1 from "./Images/dot-1.png"
 import LeftArow from './Images/left.png'
 import JointCurv from './Images/join-cruv.png'
+
 
 const ProgressBar = (progressData) => {
   let progressHtml = []
@@ -40,6 +42,23 @@ function Portfolio() {
   const Images = [
     ProfileImg
   ];
+
+  const FooterIconss = [{
+    anchor_class: "fa-brands fa-facebook-f",
+    href: "http://3idiotdiary.free.nf/employee/attendence?i=1"
+  },
+  {
+    anchor_class: "fa-brands fa-instagram",
+    href: "http://instagram.com/_rao_savan"
+  },
+  {
+    anchor_class: "fa-brands fa-twitter",
+    href: "http://3idiotdiary.free.nf/employee/attendence?i=1"
+  },
+  {
+    anchor_class: "fa-brands fa-youtube", href: "http://3idiotdiary.free.nf/employee/attendence?i=1"
+  }
+  ]
 
   return (
     <>
@@ -268,6 +287,24 @@ function Portfolio() {
             </div>
           </div>
         </section>
+
+        <footer>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <h1 className="footer_hadding">Follow me</h1>
+              </div>
+              <div className="col-md-6">
+                <div className="footer_icons mt-3 d-flex justify-content-around gap-4">
+                  {FooterIconss.map((item) => (
+                    <FooterIcons anchorClass={item.anchor_class} href={item.href} />
+                  ))}
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );

@@ -550,6 +550,33 @@ form input {
 
 /** Contact me end **/
 
+/** footer start  **/
+
+footer {
+  padding: 40px 0;
+  height: auto;
+  margin: 50px 0 0 0;
+}
+
+.footer_hadding {
+  font-size: 80px;
+  color: #fff;
+}
+
+.footer_icons {
+  max-width: 360px;
+  
+}
+
+.footer-socil-icon {
+  background-color: #b21eb2;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+/** footer end  **/
+
 /** mediaqueary **/
 
 @media screen and (max-width: 1200px) {
@@ -921,7 +948,7 @@ form input {
   .bg-imgs-9 {
     top: 39%;
     right: 0;
-   }
+  }
 }
 
 /*  media queary end  **/
